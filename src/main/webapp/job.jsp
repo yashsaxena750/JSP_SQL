@@ -56,13 +56,10 @@
                 <a class="nav-link" href="index.jsp">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="about.jsp"> About</a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="job.html">Jobs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="freelancer.html">Freelancers</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -73,7 +70,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="signup.jsp">
                   <i class="fa fa-user" aria-hidden="true"></i>
                   <span>
                     Sign Up
@@ -355,7 +352,7 @@
               </a>
             </li>
             <li>
-              <a href="about.html">
+              <a href="about.jsp">
                 About
               </a>
             </li>
@@ -365,7 +362,7 @@
               </a>
             </li>
             <li>
-              <a href="freelancer.html">
+              <a href="signup.jsp">
                 Freelancers
               </a>
             </li>

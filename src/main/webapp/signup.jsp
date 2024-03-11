@@ -31,6 +31,21 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <style>
+    .signup-box {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      margin: 0 auto;
+    }
+
+  </style>
+
 </head>
 
 <body class="sub_page">
@@ -56,13 +71,10 @@
                 <a class="nav-link" href="index.jsp">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+                <a class="nav-link" href="about.jsp"> About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="job.html">Jobs</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="freelancer.html">Freelancers</a>
+                <a class="nav-link" href="job.jsp">Jobs</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -92,127 +104,44 @@
     </header>
     <!-- end header section -->
   </div>
+  <br>
 
-  <!-- expert section -->
+  <div class="info_form signup-box">
+    <h4>
+      Sign Up
+    </h4>
+    <form action="<%= request.getContextPath()%>/hello-servlet" class="material-signup-form" method="get">
+      <div class="form-group">
+        <%--@declare id="signupname"--%><label for="signupName">Full Name
+        <input type="text" class="form-control" name="signupName" placeholder="Enter your full name" required>
+        </label>
+      </div>
 
-  <section class="expert_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          LOOKING FOR EXPERTS?
-        </h2>
-        <p>
-          Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris
-          iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus.
-        </p>
+      <div class="form-group">
+        <%--@declare id="signupemail"--%><label for="signupEmail">Email address
+        <input type="email" class="form-control" name="signupEmail" placeholder="Enter your email" required>
+        </label>
       </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/e1.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <a href="">
-                Martin Anderson
-              </a>
-              <h6 class="expert_position">
-                <span>
-                  Web Anaylzer
-                </span>
-                <span>
-                  41 Jobs Done
-                </span>
-              </h6>
-              <span class="expert_rating">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-              </span>
-              <p>
-                Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam
-                nulla
-                mauris iaculis.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/e2.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <a href="">
-                Semanta Klores
-              </a>
-              <h6 class="expert_position">
-                <span>
-                  Graphic Designer
-                </span>
-                <span>
-                  32 Jobs Done
-                </span>
-              </h6>
-              <span class="expert_rating">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-              </span>
-              <p>
-                Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam
-                nulla
-                mauris iaculis.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/e3.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <a href="">
-                Ryan Martines
-              </a>
-              <h6 class="expert_position">
-                <span>
-                  SEO Expert
-                </span>
-                <span>
-                  27 Jobs Done
-                </span>
-              </h6>
-              <span class="expert_rating">
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-                <i class="fa fa-star" aria-hidden="true"></i>
-              </span>
-              <p>
-                Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam
-                nulla
-                mauris iaculis.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="btn-box">
-        <a href="">
-          View All Freelancers
-        </a>
-      </div>
-    </div>
-  </section>
 
-  <!-- end expert section -->
+      <div class="form-group">
+        <%--@declare id="signuppassword"--%><label for="signupPassword">Password
+        <input type="password" class="form-control" name="signupPassword" placeholder="Enter your password" required>
+        </label>
+      </div>
+
+      <div class="form-group">
+        <%--@declare id="confirmpassword"--%><label for="confirmPassword">Confirm Password
+        <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm your password" required>
+        </label>
+      </div>
+
+      <input type="hidden" name="action" value="signup">
+      <input type="submit" value="Submit" class="btn btn-primary" >
+    </form>
+  </div>
+
+
+  <br><br>
 
   <!-- info section -->
   <section class="info_section ">
@@ -229,18 +158,13 @@
               </a>
             </li>
             <li>
-              <a href="about.html">
+              <a href="about.jsp">
                 About
               </a>
             </li>
             <li>
-              <a href="job.html">
+              <a href="job.jsp">
                 Jobs
-              </a>
-            </li>
-            <li>
-              <a class="active" href="freelancer.html">
-                Freelancers
               </a>
             </li>
           </ul>
@@ -289,7 +213,9 @@
               Newsletter
             </h4>
             <form action="">
-              <input type="text" placeholder="Enter Your Email" />
+              <label>
+                <input type="text" placeholder="Enter Your Email" />
+              </label>
               <button type="submit">
                 Subscribe
               </button>

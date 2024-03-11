@@ -1,0 +1,18 @@
+
+¡	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸¬ùïÿÿÿÿÿ8Ì¯Õûâ1J$74874791-8d88-4492-b0c8-1a9cf69d0e1a
+„
+java:S1854S"<Remove this useless assignment to local variable "username".(ÆñÁşÿÿÿÿ8êšéûâ1J$2333d860-1934-47a4-8ecd-03857df6de45
+€
+java:S1854T"=Remove this useless assignment to local variable "useremail".(Í€”Ù8¤Ä–üâ1J$f105311b-de02-48d0-b092-5de97fa8f1bb
+
+java:S1854U"<Remove this useless assignment to local variable "userpass".(ß ¡×8Òã–üâ1J$293e39c1-0e00-4bd8-b425-09e4fdeee21a
+
+java:S1854V">Remove this useless assignment to local variable "usercnpass".(±Û©8¯õ—üâ1J$43369ba6-b283-4deb-8525-1af851e0decd
+u
+java:S1481S"-Remove this unused "username" local variable.(ÆñÁşÿÿÿÿ8ëšéûâ1J$32b07692-82de-4e40-8e2a-dd62cb890d8f
+q
+java:S1481T".Remove this unused "useremail" local variable.(Í€”Ù8¦Ä–üâ1J$0c93d82b-c56c-46c9-bf8e-6ce68ae04ddb
+p
+java:S1481U"-Remove this unused "userpass" local variable.(ß ¡×8±õ—üâ1J$9cf9d9f5-b763-482a-a2a4-dac9b19f5253
+r
+java:S1481V"/Remove this unused "usercnpass" local variable.(±Û©8±õ—üâ1J$ca8134d0-fff2-4822-bc90-4123b385fac3

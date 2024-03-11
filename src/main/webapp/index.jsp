@@ -56,13 +56,10 @@
                             <a class="nav-link" href="index.jsp">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html"> About</a>
+                            <a class="nav-link" href="about.jsp"> About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="job.html">Jobs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="freelancer.html">Freelancers</a>
+                            <a class="nav-link" href="job.jsp">Jobs</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -73,10 +70,10 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<%= request.getContextPath() %>/hello-servlet">
+                            <a class="nav-link" href="signup.jsp">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <span>
-                    List Users
+                    Signup
                   </span>
                             </a>
                         </li>
@@ -667,17 +664,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="about.html">
+                        <a href="about.jsp">
                             About
                         </a>
                     </li>
                     <li>
-                        <a class="" href="job.html">
+                        <a class="" href="job.jsp">
                             Jobs
                         </a>
                     </li>
                     <li>
-                        <a class="" href="freelancer.html">
+                        <a class="" href="signup.jsp">
                             Freelancers
                         </a>
                     </li>

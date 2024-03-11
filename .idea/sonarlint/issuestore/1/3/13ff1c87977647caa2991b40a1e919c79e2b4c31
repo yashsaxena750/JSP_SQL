@@ -1,0 +1,11 @@
+
+a	css:S4656Z"&Unexpected duplicate "text-decoration"(ôª²ôJ$709a5713-e8f4-4a0c-b3e7-b5cf84f9d054
+g	css:S4649ÌM"&Unexpected missing generic font family(‰ù©åþÿÿÿÿJ$d49ec8e3-c0d8-4623-9242-2fd3d2e8627d
+z	css:S4666¦"9Unexpected duplicate selector "hr", first used at line 70(ÄÈ÷¨øÿÿÿÿJ$829a5fcc-ceb1-4ffc-93c3-77b7b44a47dd
+w	css:S4666“";Unexpected duplicate selector "pre", first used at line 188(½©ŸúJ$03e9be4e-a29f-4c54-bf81-64ae991ba8c3
+œ	css:S4666è"[Unexpected duplicate selector ".dropright .dropdown-toggle::after", first used at line 3161(ÓóÄ”øÿÿÿÿJ$d1ae3940-b431-4281-9fa7-b39203478670
+›	css:S4666û"ZUnexpected duplicate selector ".dropleft .dropdown-toggle::after", first used at line 3188(èÅÔ¥ÿÿÿÿÿJ$3b126640-a673-4005-9704-6c9b38cd7979
+—	css:S4666"[Unexpected duplicate selector ".dropleft .dropdown-toggle::before", first used at line 3199(þ×£J$2ec6bd59-7627-41a7-8289-22ba5870fbf7
+Ò	css:S4666×""Unexpected duplicate selector ".navbar-expand > .container,
+.navbar-expand > .container-fluid", first used at line 4419 (no-duplicate-selectors)(“ª™¶ÿÿÿÿÿJ$fa90b9d6-cbf5-4654-856e-39310a0ae910
+«	css:S4666Ý%"jUnexpected duplicate selector ".breadcrumb-item + .breadcrumb-item:hover::before", first used at line 4825(Û…´ºûÿÿÿÿJ$5ffb1a75-8e0b-4402-95cd-d474652b3c0d

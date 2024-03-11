@@ -1,16 +1,42 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: yashs
-  Date: 10-03-2024
-  Time: 23:13
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<%@ page import="java.util.List" %>
+<%@ page import="org.apache.commons.text.StringEscapeUtils" %>
+
+<%@ page import="org.example.untitled.entity.edata" %>
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-    <title>Title</title>
+    <title>User List</title>
 </head>
 <body>
-  
-  </body>
+
+<h1>User List:</h1>
+
+<table border="1">
+    <caption>user list</caption>
+    <thead>
+
+    <th>id</th>
+    <th>name</th>
+    <th>email</th>
+    <th>password</th>
+
+    </thead>
+
+<%
+
+
+List<edata> listuser = (List)request.getAttribute("udata");
+for(edata _edata: listuser){
+out.print("<tr>");
+out.print("<td>"+_edata.getUserid()+"</td>");
+out.print("<td>"+StringEscapeUtils.escapeHtml4(_edata.getUname())+"</td>");
+out.print("<td>"+StringEscapeUtils.escapeHtml4(_edata.getUemail())+"</td>");
+out.print("<td>"+StringEscapeUtils.escapeHtml4(_edata.getUpassword())+"</td>");
+out.print("<tr>");
+}
+
+%>
+</table>
+</body>
 </html>

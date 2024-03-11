@@ -60,10 +60,7 @@
                 <a class="nav-link" href="about.html"> About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="job.html">Jobs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="freelancer.html">Freelancers</a>
+                <a class="nav-link" href="job.jsp">Jobs</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
@@ -73,8 +70,18 @@
                   </span>
                 </a>
               </li>
+
+<%--              <li class="nav-item">--%>
+<%--                <a class="nav-link" href="<%=request.getContextPath()%>/hello-servlet?action=listuser">--%>
+<%--                  <i class="fa fa-user" aria-hidden="true"></i>--%>
+<%--                  <span>--%>
+<%--                    List Users--%>
+<%--                  </span>--%>
+<%--                </a>--%>
+<%--              </li>--%>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="signup.jsp">
                   <i class="fa fa-user" aria-hidden="true"></i>
                   <span>
                     Sign Up
@@ -148,12 +155,12 @@
               </a>
             </li>
             <li>
-              <a href="job.html">
+              <a href="job.jsp">
                 Jobs
               </a>
             </li>
             <li>
-              <a href="freelancer.html">
+              <a href="signup.jsp">
                 Freelancers
               </a>
             </li>

@@ -17,14 +17,8 @@ O
 src/main/webapp/js/bootstrap.js,d\4\d4e6b9e1c4f8590713363191b14777838a5253be
 L
 src/main/webapp/js/custom.js,2\7\27d7d999aee22ad0f69d1790d9fc3d92f4b6dcf8
-J
-src/main/webapp/about.html,2\d\2dbade310f33672ab111af17a81d4b20d63503cb
 V
 &src/main/webapp/js/jquery-3.4.1.min.js,6\7\67d4c90679f8f71bcdeeaa28f502966c9b547796
-H
-src/main/webapp/job.html,8\d\8d54b8268d434b3837de03d8cf635fdd11b786dd
-O
-src/main/webapp/freelancer.html,b\3\b34c43932be19ce8d5dbb9506b76cce7929f0ea3
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
@@ -50,3 +44,11 @@ X
 (src/main/webapp/css/font-awesome.min.css,8\e\8e6809e4f646c285a8f79a09ebb5110f142f836d
 R
 "src/main/webapp/css/responsive.css,1\e\1eabec44c29429d08ea53c9ccf09650301a8c735
+J
+src/main/webapp/signup.jsp,e\5\e5522cd3d0b3598d3702de2bf21f10cd7b094ad8
+I
+src/main/webapp/about.jsp,9\c\9cfad79fedc294aa80b61650cbdd6365fe3bda92
+G
+src/main/webapp/job.jsp,2\c\2c7936c9f8cd5057651836b4ee53b03ff349e156
+e
+5src/main/java/org/example/untitled/entity/insert.java,8\f\8f767c0d74d048296bff5dd3f6fe43b9bf69fed9
