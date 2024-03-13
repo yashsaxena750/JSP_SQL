@@ -1,8 +1,16 @@
 
-š
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìÒ¿òûÿÿÿÿJ$fb048c46-7472-43de-8a49-64dd4752b2d6
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡çØÛıÿÿÿÿJ$30baa136-9eaf-4457-9177-4d3465611672
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¥«îÊã1J$43eede3c-0720-4f5b-8ede-33b6ad6c688b
+¡
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìÒ¿òûÿÿÿÿ8ËÊ¾Çã1J$4d1a015f-ebd8-411a-8774-c9f519c2bb1e
+}
+java:S1141O"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ÌÊ¾Çã1J$88db9001-4460-433e-bbbb-816393648181
+d
+java:S1643"Use a StringBuilder instead.(‚ÑÙíøÿÿÿÿ8§«îÊã1J$fb22573e-de37-4990-ae6c-b64fa1595680
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡çØÛıÿÿÿÿ8ÍÊ¾Çã1J$197b1ecd-b31d-459a-bc5e-afa35aa0d611
 Š
-java:S2259%"BA "NullPointerException" could be thrown; "stmt" is nullable here.(Æ€»Çùÿÿÿÿ8ŒÆ’Òâ1J$e45af202-3cbd-439b-8acf-9bd911946335
-{
-java:S1118":Add a private constructor to hide the implicit public one.(¡çØÛıÿÿÿÿJ$2c67c9cb-ab23-499b-b51d-769bb8dc1c2e
+java:S22594"BA "NullPointerException" could be thrown; "stmt" is nullable here.(Æ€»Çùÿÿÿÿ8üÆ…Éã1J$13967431-31f9-43bd-8b1c-8a1cbe572f44
+—
+java:S2095P"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(üÎ›ÿÿÿÿÿ8Ú«îÊã1J$a95008cf-9e27-4cdd-87a2-17f499ecd4f6
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(¡çØÛıÿÿÿÿ8—İğÊã1J$431fddb3-a24b-4a9d-a020-8c8519e541ca
+ƒ	java:S125N"<This block of commented-out lines of code should be removed.(‰Ì‚ÿÿÿÿÿ8ÎÆæÊã1J$87a64e73-aeba-4c93-98b7-eced27d93fde

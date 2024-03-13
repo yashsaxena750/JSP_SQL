@@ -7,8 +7,13 @@ public class edata {
     private String uemail;
     private String upassword;
 
-    public edata(int userid, String uname, String uemail, String upassword) {
+    public edata() {
         this.userid = userid;
+        this.uname = uname;
+        this.uemail = uemail;
+        this.upassword = upassword;
+    }
+    public edata(String uname, String uemail, String upassword) {
         this.uname = uname;
         this.uemail = uemail;
         this.upassword = upassword;

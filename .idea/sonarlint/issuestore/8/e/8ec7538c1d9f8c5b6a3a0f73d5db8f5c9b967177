@@ -1,2 +1,18 @@
 
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£‘œÌúÿÿÿÿJ$4419eec0-6c72-4bd6-9622-215fc3ba4e6b
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£‘œÌúÿÿÿÿJ$9aa08250-d3a9-4841-b795-e0ae94f647e2
+„
+java:S4165"gRemove this useless assignment; "upassword" already holds the assigned value along all execution paths.(‡‡Ã•8ì¸ÇÇã1
+
+java:S4165"cRemove this useless assignment; "uname" already holds the assigned value along all execution paths.(€¸j8ì¸ÇÇã1
+†
+java:S4165"dRemove this useless assignment; "uemail" already holds the assigned value along all execution paths.(˜®Üüÿÿÿÿ8ì¸ÇÇã1
+
+java:S4165"dRemove this useless assignment; "userid" already holds the assigned value along all execution paths.(Ä¿ÓŸ8ì¸ÇÇã1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(˜®Üüÿÿÿÿ8ò¸ÇÇã1
+L
+java:S1656"/Remove or correct this useless self-assignment.(Ä¿ÓŸ8ò¸ÇÇã1
+L
+java:S1656"/Remove or correct this useless self-assignment.(‡‡Ã•8ò¸ÇÇã1
+K
+java:S1656"/Remove or correct this useless self-assignment.(€¸j8ò¸ÇÇã1

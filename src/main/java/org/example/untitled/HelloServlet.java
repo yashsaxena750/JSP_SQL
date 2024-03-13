@@ -31,6 +31,38 @@ public class HelloServlet extends HttpServlet {
                 case "listuser":
                     listuser(request, response);
                     break;
+                default:
+                    PrintWriter out = null;
+                    try {
+                        out = response.getWriter();
+                        out.println("<script>alert('unknown action')</script>");
+                    } catch (Exception e) {
+                        logger.info(Error+e);
+                    }
+
+                    break;
+            }
+        } else {
+            // Handle the case when no action is specified
+            PrintWriter out = null;
+            try {
+                out = response.getWriter();
+                out.println("<script>alert('unknown action')</script>");
+            } catch (Exception e) {
+                logger.info(Error+e);
+            }
+
+        }
+
+    }
+
+    @Override
+    public void doPost(HttpServletRequest request, HttpServletResponse response){
+        response.setContentType("text/html");
+        final Logger logger = Logger.getLogger(getClass().getName());
+        String action = request.getParameter("action");
+        if (action != null && !action.isEmpty()) {
+            switch (action) {
                 case "signup":
                     signup(request,response);
                     break;
@@ -56,7 +88,6 @@ public class HelloServlet extends HttpServlet {
             }
 
         }
-
     }
 
     @Override
@@ -85,10 +116,24 @@ public class HelloServlet extends HttpServlet {
             String userpass = StringEscapeUtils.escapeHtml4(request.getParameter("signupPassword"));
             String usercnpass = StringEscapeUtils.escapeHtml4(request.getParameter("confirmPassword"));
 
+            if(usercnpass.equals(userpass)) {
+                edata edat = new edata(username, useremail, userpass);
+                int res = usermodel.adduser(edat);
+                if (res == 0) {
+                    PrintWriter out = response.getWriter();
+                    out.println("<script>alert('Registration done!');</script>");
+                    out.println("<script>setTimeout(function(){ window.location.href = '" + request.getContextPath() + "/index.jsp'; }, 1000);</script>");
+                } else {
+                    request.setAttribute("udata", "user already exists!");
+                    request.getRequestDispatcher("signup.jsp").forward(request, response);
+                }
+            }
+            else{
+                logger.warning("password doesn't match!");
+                request.setAttribute("udata","password doesn't match");
+                request.getRequestDispatcher("signup.jsp").forward(request,response);
+            }
 
-            PrintWriter out = response.getWriter();
-            out.println("<script>alert('Registration done!');</script>");
-            out.println("<script>setTimeout(function(){ window.location.href = '" + request.getContextPath() + "/index.jsp'; }, 1000);</script>");
         } catch (Exception e) {
             logger.info(Error+e);
         }

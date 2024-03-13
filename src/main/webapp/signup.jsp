@@ -110,7 +110,7 @@
     <h4>
       Sign Up
     </h4>
-    <form action="<%= request.getContextPath()%>/hello-servlet" class="material-signup-form" method="get">
+    <form action="<%= request.getContextPath()%>/hello-servlet" class="material-signup-form" method="post">
       <div class="form-group">
         <%--@declare id="signupname"--%><label for="signupName">Full Name
         <input type="text" class="form-control" name="signupName" placeholder="Enter your full name" required>
@@ -140,8 +140,17 @@
     </form>
   </div>
 
-
   <br><br>
+
+  <%
+
+    String error = (String)request.getAttribute("udata");
+    if(error!=null)
+    {
+        out.println("<p style='color:red;text-align:center'>"+error+"</p>");
+    }
+
+  %>
 
   <!-- info section -->
   <section class="info_section ">
@@ -185,7 +194,7 @@
             </h4>
             <div class="social_container">
               <div>
-                <a href="">
+                <a href="#">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
               </div>
